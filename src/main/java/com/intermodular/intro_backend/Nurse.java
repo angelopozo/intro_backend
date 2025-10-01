@@ -57,7 +57,7 @@ public class Nurse {
 	
 	@Override
 	public String toString() {
-		return "Nurse [id=" + id + ", name=" + name + ", lastName=" + lastName + ", email=" + email + ", password="
+		return "Nurse [(" + id + ") - name=" + name + ", lastName=" + lastName + ", email=" + email + ", password="
 				+ password + "]";
 	}
 }
