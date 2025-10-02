@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 public class NurseController {
 
     private final JSONArray listNurses = new JSONArray();
-    JSONObject nurse1 = new JSONObject();
     
     @GetMapping("/name/{name}")
     public ResponseEntity<JSONObject> findByName(@PathVariable String name) {
