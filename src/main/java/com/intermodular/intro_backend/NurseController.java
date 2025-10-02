@@ -61,7 +61,7 @@ public class NurseController {
         boolean answer = false;
         for (int i = 0; i < listNurses.length(); i++) {
             JSONObject nurse = listNurses.getJSONObject(i);
-            if (nurse.getString("name").equals(name) && nurse.getString("password").equals(password)) {
+            if (nurse.getString("name").equals(name) && nurseService.isPasswordCorrect(password, nurse.getString("password"))) {
                 answer = true;
                 break;
             }

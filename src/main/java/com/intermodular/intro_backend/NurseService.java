@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Optional;
 
 @Service
 public class NurseService {
@@ -62,5 +61,9 @@ public class NurseService {
         nurses.put(newNurse);
         saveAllNurses(nurses);
         return newNurse;
+    }
+
+    public boolean isPasswordCorrect(String inputPassword, String encodedPassword) {
+        return passwordEncoder.matches(inputPassword, encodedPassword);
     }
 }
