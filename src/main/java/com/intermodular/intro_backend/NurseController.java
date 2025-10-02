@@ -24,7 +24,7 @@ import java.nio.file.Paths;
 @RequestMapping("/nurse")
 public class NurseController {
 
-    private final JSONArray listNurses = getListNurses();
+    private JSONArray listNurses = getListNurses();
     private final NurseService nurseService;
 
     @Autowired
@@ -77,12 +77,13 @@ public class NurseController {
 
     @PostMapping("/login")
     public ResponseEntity<Map<String, Boolean>> login(@RequestBody Map<String, String> body) {
-        String name = body.get("name");
+        listNurses = getListNurses();
+        String name = body.get("first_name");
         String password = body.get("password");
         boolean answer = false;
         for (int i = 0; i < listNurses.length(); i++) {
             JSONObject nurse = listNurses.getJSONObject(i);
-            if (nurse.getString("name").equals(name) && nurseService.isPasswordCorrect(password, nurse.getString("password"))) {
+            if (nurse.getString("first_name").equals(name) && nurseService.isPasswordCorrect(password, nurse.getString("password"))) {
                 answer = true;
                 break;
             }
