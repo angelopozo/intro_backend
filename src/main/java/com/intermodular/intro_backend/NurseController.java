@@ -16,15 +16,16 @@ import java.nio.file.Paths;
 @RequestMapping("/nurse")
 public class NurseController {
 
-    public JSONArray getAllNurses() throws IOException {
+    @GetMapping(value = "/index",
+    produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<JSONArray> getAllNurses() throws IOException {
         String content = new String(Files.readAllBytes(Paths.get("src/main/resources/data/nurse.json")));
         JSONArray nurses = new JSONArray(content);
 
         System.out.println(content);
 
-        return nurses;
+        return ResponseEntity.ok(nurses);
     }
-
 
 
 }
