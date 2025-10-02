@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.*;
 public class NurseController {
 
     private final JSONArray listNurses = new JSONArray();
-    JSONObject nurse1 = new JSONObject();
     private final NurseService nurseService;
 
     @Autowired
