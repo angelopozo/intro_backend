@@ -24,12 +24,22 @@ import java.nio.file.Paths;
 @RequestMapping("/nurse")
 public class NurseController {
 
-    private final JSONArray listNurses = new JSONArray();
+    private final JSONArray listNurses = getListNurses();
     private final NurseService nurseService;
 
     @Autowired
     public NurseController(NurseService nurseService) {
         this.nurseService = nurseService;
+    }
+
+    private JSONArray getListNurses() {
+        try {
+            String content = new String(Files.readAllBytes(Paths.get("src/main/resources/data/nurse.json")));
+            return new JSONArray(content);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return new JSONArray();
+        }
     }
 
     @GetMapping("/name/{name}")
