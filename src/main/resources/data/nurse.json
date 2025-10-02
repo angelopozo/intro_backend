@@ -1,101 +1,710 @@
-[{"nurse_id":1,"first_name":"Hayden","last_name":"Bolland","email":"hbolland0@cocolog-nifty.com","password":"$2a$04$UJqN.u/FElgSeKb2XH.r4.XD1C.O50/DthiQiPtGCP1wlclBed1oq"},
-{"nurse_id":2,"first_name":"Bary","last_name":"Esley","email":"besley1@msn.com","password":"$2a$04$79N5we2w5o7eeBZNJ1N3b.Wmtc4O5Q6fvbOZ/cTbmd8m8lqfeKqOC"},
-{"nurse_id":3,"first_name":"Eduardo","last_name":"Hylands","email":"ehylands2@plala.or.jp","password":"$2a$04$BSxSH1/YmdDTbbseJEioye6QE9XVz4RdkyBgwvsgXTVwG8tHjCuUq"},
-{"nurse_id":4,"first_name":"Cami","last_name":"Miall","email":"cmiall3@naver.com","password":"$2a$04$61I/Fk3By60vf5jMCki8Be3tewV/yXfEKyMfCKkO3pY7KIBFD87DG"},
-{"nurse_id":5,"first_name":"Kiley","last_name":"Stancliffe","email":"kstancliffe4@imdb.com","password":"$2a$04$LbAr2aUDhUIMMi2cLB/GiO2IpbjIpErvcV.P0kC/ZC4d1BHh5CRX2"},
-{"nurse_id":6,"first_name":"Geri","last_name":"Leaf","email":"gleaf5@cpanel.net","password":"$2a$04$YqlkHQgEoAG7EXftGMMOCeJnDQoH8BM/q8RlVsuDbiP2p94DpliRC"},
-{"nurse_id":7,"first_name":"Correy","last_name":"Cours","email":"ccours6@auda.org.au","password":"$2a$04$85dtaps4elDxGaOx6cl33ObQho/GZ.U9JysN4wT7BJmFxl1cuIFMC"},
-{"nurse_id":8,"first_name":"Laurel","last_name":"Blackater","email":"lblackater7@youtube.com","password":"$2a$04$pnzejprdHcami6KtuW0ske6bBGlDCnnEjcmSd/2x4ffI/ZpJvGihK"},
-{"nurse_id":9,"first_name":"Katharina","last_name":"Schapiro","email":"kschapiro8@elpais.com","password":"$2a$04$k253Bpf8uIAYjes44xo49.WEDr1CEPDwtDJSEgJFUkiPPa6uCQvxi"},
-{"nurse_id":10,"first_name":"Bradford","last_name":"Godney","email":"bgodney9@uiuc.edu","password":"$2a$04$WzjARHsnkErfUkT7NHV9n.KRhOlWRFJrXF9yS.kkr1Gh/LcZ3wjLa"},
-{"nurse_id":11,"first_name":"Cassy","last_name":"Pawson","email":"cpawsona@w3.org","password":"$2a$04$Nmi4Dh94yMb/Kn5YqUqCeOb3q9qO6HvmbjE9Zb5B2ExtjBm83PBIO"},
-{"nurse_id":12,"first_name":"Erna","last_name":"Yerrill","email":"eyerrillb@patch.com","password":"$2a$04$fxrRrlsZOUYhybjSRkiYzOq8gGO54Tp/ILJF8wfjBNfJD8csTfJAi"},
-{"nurse_id":13,"first_name":"Berget","last_name":"McCaffrey","email":"bmccaffreyc@blog.com","password":"$2a$04$4OcioAFCck5AE1YLJugsSOM.O.M/EqEdZJzkYXeZG8imtWetJj8Dy"},
-{"nurse_id":14,"first_name":"Rina","last_name":"Edgson","email":"redgsond@europa.eu","password":"$2a$04$e2YjIidXv2x5IBHs10MrzOr1/tfeWaiOhNctecI3JYvW0WLSOlYZi"},
-{"nurse_id":15,"first_name":"Grannie","last_name":"Oakey","email":"goakeye@blogtalkradio.com","password":"$2a$04$Pvgr261T9E72tTr1zd0aK.0MiPaChmqkZudgp3Da1OSPBlr1fBq5S"},
-{"nurse_id":16,"first_name":"Mame","last_name":"Spadoni","email":"mspadonif@washingtonpost.com","password":"$2a$04$QdffyROi.0JcDXq9eLlN.u.eh.yZ242JG4SGOjW8Uo6fGbeUbnYay"},
-{"nurse_id":17,"first_name":"Powell","last_name":"Goodbur","email":"pgoodburg@webeden.co.uk","password":"$2a$04$ibMuc2Xq96hj9kgCuaz7EOQH04jjj6dUJWr/8xmLVa7gtQWe24kKW"},
-{"nurse_id":18,"first_name":"Kalle","last_name":"Wethers","email":"kwethersh@yelp.com","password":"$2a$04$bCQ0.vhHfxX7SX5K2FHS.OBhiL.UTmYzyz78aXH94tTMW1PWhGCre"},
-{"nurse_id":19,"first_name":"Bradly","last_name":"Facer","email":"bfaceri@yahoo.co.jp","password":"$2a$04$vWWIQT2cVdOwGj2KXDmzmO3LUKK6.pXAbX0uiwqIBkEjM6GwMmrce"},
-{"nurse_id":20,"first_name":"Inesita","last_name":"Arnoll","email":"iarnollj@privacy.gov.au","password":"$2a$04$Bd8fsf3ItjFBk5NOT9qPY.z8/m7JAlk7SroF6xHwUIM80shlyfV/e"},
-{"nurse_id":21,"first_name":"Marcel","last_name":"Illston","email":"millstonk@google.it","password":"$2a$04$D48kPRdUNnpMZ7wyfR0gyOmTrL5VPplAkxSqfjCNuxvC26CJxWaPW"},
-{"nurse_id":22,"first_name":"Bing","last_name":"Joliffe","email":"bjoliffel@ask.com","password":"$2a$04$g0iEWp8QDC8VchJgSrfWNuHQWFQDr.kFdjsfa8W4zd4CRTU3xR4km"},
-{"nurse_id":23,"first_name":"Mellisent","last_name":"Clapshaw","email":"mclapshawm@hp.com","password":"$2a$04$v2HF2DhsKmQfJSyPZcAhMuuNP3WaU3gZB8/tLZYoe5UObiHtDPpii"},
-{"nurse_id":24,"first_name":"Gardener","last_name":"Gatus","email":"ggatusn@craigslist.org","password":"$2a$04$t1.HX.qAB3UkGAh25RIMCO58u4UUWOqRT6mrILigsM2k4NPHHaMCS"},
-{"nurse_id":25,"first_name":"Catherin","last_name":"Carswell","email":"ccarswello@wufoo.com","password":"$2a$04$wiMzxXyF8zLdKzaFlWmXmOcu2WOK9cdLh0k6Nov0nBjS0BGWiJ/jG"},
-{"nurse_id":26,"first_name":"Trudi","last_name":"Rudgard","email":"trudgardp@wikipedia.org","password":"$2a$04$ch9T8txreXleMsj8w.Zq3.iamiN.A7xcpD3BG.D9R7aOyITaY9a9i"},
-{"nurse_id":27,"first_name":"Fanya","last_name":"Paice","email":"fpaiceq@goo.ne.jp","password":"$2a$04$Rcv0LY/kdXZqNfNYPOOAlOMa2idw5IRNedoyr1oB9OLXaYWWrDZ8."},
-{"nurse_id":28,"first_name":"Christoper","last_name":"Norgan","email":"cnorganr@go.com","password":"$2a$04$CnyPRErQqQhLMskc33gP9Oj8dQGJ82Sh0jatOgPk7TLHnQdqZv1ee"},
-{"nurse_id":29,"first_name":"Flemming","last_name":"O'Kuddyhy","email":"fokuddyhys@indiegogo.com","password":"$2a$04$O/1N9UGYbtZcapG0.W7RseywuCz.xkPuzaJtrpvnGY0iFNHRxs5iC"},
-{"nurse_id":30,"first_name":"Justino","last_name":"Cozzi","email":"jcozzit@un.org","password":"$2a$04$RgoDpOJ9b4L4yo69G/QaVeY4tcsu/yaQj4pX0nZ/zAkyaQJcN6dbi"},
-{"nurse_id":31,"first_name":"Guenna","last_name":"Shotboult","email":"gshotboultu@friendfeed.com","password":"$2a$04$FXsKY060gK3vv7b18IiEcO/505zyQvMzAeB87t7KMZZiUVCYaTZee"},
-{"nurse_id":32,"first_name":"Ode","last_name":"Skaife d'Ingerthorpe","email":"oskaifedingerthorpev@hc360.com","password":"$2a$04$HwNVqspfbGmrE87Qotth6eSQmmQ35kJj8J5XCHAM7EUhoz18PIZgG"},
-{"nurse_id":33,"first_name":"Myer","last_name":"Bryson","email":"mbrysonw@bloglovin.com","password":"$2a$04$W2ks.XM2EpSG1qmoRKiwF.VranoLkMC3g0cAhnf4fHQ1NPXAQYVAe"},
-{"nurse_id":34,"first_name":"Estele","last_name":"Rens","email":"erensx@sfgate.com","password":"$2a$04$XtQs9pVGAnUnWGnRNyT0..xREJT07ecWVcxnUMxOclWbpXnHACPx2"},
-{"nurse_id":35,"first_name":"Chrissie","last_name":"Penswick","email":"cpenswicky@issuu.com","password":"$2a$04$2rnm0LGiTWR5GpXIhISwXO7Xqi1pvqSy7mW5v9/8o2pSZ82UgnsTi"},
-{"nurse_id":36,"first_name":"Cassi","last_name":"Farquar","email":"cfarquarz@ovh.net","password":"$2a$04$/HRYPU9CQp4VtLnruc/jrORThBcRuBHtGm/ELQYUikeHwdENW67pW"},
-{"nurse_id":37,"first_name":"Ami","last_name":"Tuffin","email":"atuffin10@sakura.ne.jp","password":"$2a$04$X96n2jq.8c1CEuzaw3gvgOi177VNLuoWcu83JMu2wEn4NphEpi79i"},
-{"nurse_id":38,"first_name":"Jase","last_name":"Futter","email":"jfutter11@biglobe.ne.jp","password":"$2a$04$RHXX51SSafPajziAO4Yg6e6C7yq8Amcdxga9FLe8g/ubJA6WRi2fi"},
-{"nurse_id":39,"first_name":"Waneta","last_name":"Bellerby","email":"wbellerby12@lycos.com","password":"$2a$04$PCjJdPhpCTCfXkyJJBPnC.BvB6vSTZA2h5WRgpZbnj/1ZyDBCWAIq"},
-{"nurse_id":40,"first_name":"Chance","last_name":"Bruckman","email":"cbruckman13@oakley.com","password":"$2a$04$wXrSYV8NLebmGOximia7mel0v7ltlE6gJK63.5V6rblm0ROU7OPia"},
-{"nurse_id":41,"first_name":"Darwin","last_name":"Grimstead","email":"dgrimstead14@scientificamerican.com","password":"$2a$04$Xo1GEmnIPVlQXuHqBD3BZuQfW9CmJvI8elzmVwEpprP8U699RooZq"},
-{"nurse_id":42,"first_name":"Jasun","last_name":"Deniscke","email":"jdeniscke15@paypal.com","password":"$2a$04$HRSJwxn04y7FdQAmhpH/Q.Odhl27SChcmVE.DVvjvZTNFWKpK4ojO"},
-{"nurse_id":43,"first_name":"Marthena","last_name":"Moff","email":"mmoff16@icio.us","password":"$2a$04$lwwL8VOSlX8o5B1WdHNg9ulYN926lLuMiji011YzDtkv1qGPqqjo2"},
-{"nurse_id":44,"first_name":"Gordan","last_name":"Barriball","email":"gbarriball17@si.edu","password":"$2a$04$0cW/xLGyKZfAqLzp.G9yOOY.9ZP1tlqcX5SNCzA2aQIUNu7.CMcqi"},
-{"nurse_id":45,"first_name":"Freda","last_name":"Das","email":"fdas18@blogtalkradio.com","password":"$2a$04$sjjd0r6I5kqRJ9hhV1Ev9OwVNs8DlpWZHnFuxY6CMc9isd5YbinwK"},
-{"nurse_id":46,"first_name":"Fan","last_name":"Piotrowski","email":"fpiotrowski19@etsy.com","password":"$2a$04$jc9knlnRy.FwJAdo.8Ir6.mG1iSWV.PHu9.YFOLziUQHKMTXtGIl."},
-{"nurse_id":47,"first_name":"Cahra","last_name":"Faucett","email":"cfaucett1a@blinklist.com","password":"$2a$04$4NtXX0Xb0meQyNviZonBheGvbpZgBYdi40K/5/gnOuH9/lVCxQQnG"},
-{"nurse_id":48,"first_name":"Melody","last_name":"Garnul","email":"mgarnul1b@nifty.com","password":"$2a$04$/mkKndX/GMzK8BwaB0aApelxnZT80rFYaCFAU.r2wktDzuYa9DcIe"},
-{"nurse_id":49,"first_name":"Sosanna","last_name":"Bartaletti","email":"sbartaletti1c@independent.co.uk","password":"$2a$04$Luh1EAwCafIwCaPKbYN21ucLOlDFHdnCUwkbBEqADMkLoL2TTyR1i"},
-{"nurse_id":50,"first_name":"Rabbi","last_name":"MacNeilage","email":"rmacneilage1d@merriam-webster.com","password":"$2a$04$uRGAnGZJcPamnE2nqd5cm.gYxMrWDNID5i4r5oPLeHSGo5kXihTiC"},
-{"nurse_id":51,"first_name":"Marshal","last_name":"Lapere","email":"mlapere1e@marketwatch.com","password":"$2a$04$drD7odXBY4WQW8i5Mbn5s.Bg4.JralYvELcG7YdOHSgo14fV9LB2S"},
-{"nurse_id":52,"first_name":"Melodee","last_name":"Shingfield","email":"mshingfield1f@geocities.jp","password":"$2a$04$vCRlvFN3Ly2O4zqV0ILcFubNQsfDDhNEIoK8vGH4c9KRXuX0sEULi"},
-{"nurse_id":53,"first_name":"Hilario","last_name":"Tuffrey","email":"htuffrey1g@skyrock.com","password":"$2a$04$85lSBWef1hzjfMoEZMlZkujr1UHVeW9NO0tqZC7MOLnh1awnUkQTm"},
-{"nurse_id":54,"first_name":"Rand","last_name":"Heck","email":"rheck1h@histats.com","password":"$2a$04$SzD8Zxe2/zXpRSVoq.T9YeIBqNXbHrk9Cdp3srCT44lRKOXNjCF3e"},
-{"nurse_id":55,"first_name":"Marielle","last_name":"Greeves","email":"mgreeves1i@berkeley.edu","password":"$2a$04$645D3XNj6kryO8R6D59hWuXU5j41BhTHDvq2tOLOL1U7WWqMXXdH6"},
-{"nurse_id":56,"first_name":"Marthena","last_name":"Postans","email":"mpostans1j@globo.com","password":"$2a$04$dn082Cesa.IE7axIZCwGsecb/S./uRXbw8BbM6c581qKcn49ZwSta"},
-{"nurse_id":57,"first_name":"Paula","last_name":"Collar","email":"pcollar1k@weebly.com","password":"$2a$04$HTfj5zx2fyhrMtJjI8rFYu4mtyFxOkSvKn7Z./r.dISzp.Wmk48MO"},
-{"nurse_id":58,"first_name":"Huey","last_name":"Garrard","email":"hgarrard1l@amazon.co.jp","password":"$2a$04$szVrUMXbOdAuo5uNS.R7Vu4GU4Bo2Ec79bKk99RXoK/EzSqKdxpKm"},
-{"nurse_id":59,"first_name":"Con","last_name":"Scarlan","email":"cscarlan1m@gov.uk","password":"$2a$04$7eSYnBf85XKggINbTSe/ReCJWOfGrz/URaW6NH.5esltmX6jaYZLS"},
-{"nurse_id":60,"first_name":"Malina","last_name":"Ruggen","email":"mruggen1n@mashable.com","password":"$2a$04$AKZUX7tsPEmDLTJ8XfyzFeyPyPmos/E5pObUncbvNsoSb.WVmixau"},
-{"nurse_id":61,"first_name":"Adoree","last_name":"Betteridge","email":"abetteridge1o@wired.com","password":"$2a$04$xyk9VagZTzs7CTPKH7.jQOBhV7.aA9Z1PQTg6XDmKbXRjF6HBGVG2"},
-{"nurse_id":62,"first_name":"Laryssa","last_name":"Raiker","email":"lraiker1p@sitemeter.com","password":"$2a$04$O.1XptcGMG9WQp1bsAmXMuBWFltfix4XMKKp4T41MKsPtwLpUP5FC"},
-{"nurse_id":63,"first_name":"Garland","last_name":"Lazare","email":"glazare1q@altervista.org","password":"$2a$04$zHdVuPS5oasU3q2ggCrEdu7v8dBx19O7nSnruTZYFjHr66cVT2kuu"},
-{"nurse_id":64,"first_name":"Orelie","last_name":"Beneze","email":"obeneze1r@i2i.jp","password":"$2a$04$mKz1tHo.VX5sgx6/.pZpHewkQPCNbW9AJS8KCqIaml8lJ/HbTJ5A6"},
-{"nurse_id":65,"first_name":"Hernando","last_name":"Gregolin","email":"hgregolin1s@howstuffworks.com","password":"$2a$04$XZ3brpTPCZxVPY2ewdtfQO5W.i8WWRcgVtx0wiOTNnP7i9W8ZiIri"},
-{"nurse_id":66,"first_name":"Conrade","last_name":"Lillgard","email":"clillgard1t@theatlantic.com","password":"$2a$04$EHB5ZqIaR2MbR0FCqR2e/ON5wuR6fwHyMM8WpwZAF.RuKp9nnfj36"},
-{"nurse_id":67,"first_name":"Jermayne","last_name":"Fache","email":"jfache1u@ocn.ne.jp","password":"$2a$04$Ui1.pchA5DrhCI4nEe9IZ.nJojb.mATFPiM6exagaLILqtmGtHGnS"},
-{"nurse_id":68,"first_name":"Judye","last_name":"Blesdill","email":"jblesdill1v@usgs.gov","password":"$2a$04$WYd5F6QeE8w5gjGHvJcOm.NH7jsVBOe3hSOWxASRiX9IaS77pQG3a"},
-{"nurse_id":69,"first_name":"Friedrich","last_name":"Van Arsdall","email":"fvanarsdall1w@columbia.edu","password":"$2a$04$gayKR355Fs2JWUruRlpPrOH9LjMqFraxgZ7Tsa/TPnvkXLDVFGEyW"},
-{"nurse_id":70,"first_name":"Hettie","last_name":"Holton","email":"hholton1x@howstuffworks.com","password":"$2a$04$Gof/qQm7QttRDPFxDaXm8.NQV4EDZuOhBdKp7EXe1F9ROBnhi9Sxq"},
-{"nurse_id":71,"first_name":"Dominique","last_name":"Dawkes","email":"ddawkes1y@omniture.com","password":"$2a$04$gD/YASLZeu.UX8OxboXGMupdbRwCUbhaesbbyjmK39jeg72EZomq."},
-{"nurse_id":72,"first_name":"Weylin","last_name":"Jeste","email":"wjeste1z@phpbb.com","password":"$2a$04$.x.wFWquxyAdwEkbkOLSZe3OotqAEQkgWUYJYxJD3JFZVDVGjNKbO"},
-{"nurse_id":73,"first_name":"Caron","last_name":"Edgerley","email":"cedgerley20@tiny.cc","password":"$2a$04$6LFl6JPF24Ze.OdKzuf0lenXKCPiOLZ8U96n/3RuEGgXp0AXuulTO"},
-{"nurse_id":74,"first_name":"Freddi","last_name":"Reymers","email":"freymers21@flickr.com","password":"$2a$04$PWkhkxBFwUymwOFQV9PNnutmy4EJNr07N9VKf/6UDHn3rR5tDIeua"},
-{"nurse_id":75,"first_name":"Shara","last_name":"Rush","email":"srush22@nymag.com","password":"$2a$04$08CNVoOUpyFLF8/rqcjAzumv9McKuzwfehox9yTArAjoqotC5gFqC"},
-{"nurse_id":76,"first_name":"Niki","last_name":"Curtin","email":"ncurtin23@so-net.ne.jp","password":"$2a$04$ShHS.0UKtDahWzfcTG9C9.zh0dLFSrNVf2pQGWK22i5yOTq3r1pI6"},
-{"nurse_id":77,"first_name":"Kylen","last_name":"Kydde","email":"kkydde24@home.pl","password":"$2a$04$ypIgKufloUdcfkTTVy972.NqyPWxD/OBBCaXy.KGhyL53VWikjcTu"},
-{"nurse_id":78,"first_name":"Yorke","last_name":"Ackenson","email":"yackenson25@myspace.com","password":"$2a$04$WVpPA3PWrm8d1RIT5t9TMOe5v75Wn/kC46o86Q4x2z6pP8nnFJBea"},
-{"nurse_id":79,"first_name":"Gerhardt","last_name":"Bonnett","email":"gbonnett26@pagesperso-orange.fr","password":"$2a$04$mpb0wbSsZ7mMFccbxhT6ROmhVclQ8fsNjv.9YU7J0bGEelGrLQyJC"},
-{"nurse_id":80,"first_name":"Benita","last_name":"Sopper","email":"bsopper27@51.la","password":"$2a$04$DdZbZaT49/RkKfawrEEYDOA7XkF26UfkUuhcsthtoT7gts0aRL1E6"},
-{"nurse_id":81,"first_name":"Amie","last_name":"Priscott","email":"apriscott28@cornell.edu","password":"$2a$04$2mkRxwNLE2PT4QB2MFWCDeVf6Sw6hUyDECUCNls9c0/ccRZHD1.76"},
-{"nurse_id":82,"first_name":"Antonin","last_name":"Candwell","email":"acandwell29@istockphoto.com","password":"$2a$04$sy63L3AYnRp.7WuAPRDHXO5OTNOhFJnHCTd.CEpsoeivM0cPULtmC"},
-{"nurse_id":83,"first_name":"Pierson","last_name":"Troker","email":"ptroker2a@gmpg.org","password":"$2a$04$BFtZECk0c6PR.NniWL2PW.6wdcGzFcF2CzS7LtQdurm7zeo8E6pEC"},
-{"nurse_id":84,"first_name":"Othelia","last_name":"Gapp","email":"ogapp2b@bizjournals.com","password":"$2a$04$D4eSaSMzOBAZ1CdhhEu/f.rHf9RUwrSDrJ4ypgioOYag6ZDMS7Z9."},
-{"nurse_id":85,"first_name":"Leone","last_name":"Allcoat","email":"lallcoat2c@purevolume.com","password":"$2a$04$9iVUCBtRH/IaFHX09GHNweNhki2M870VmkGgo0Za2bICE5Ck9iOma"},
-{"nurse_id":86,"first_name":"Teador","last_name":"Crab","email":"tcrab2d@icq.com","password":"$2a$04$sLrlt3HC2u6pIhqb1T8Ffefjr4z9f/8sL3hgiJSjDLCj0xRs0iBim"},
-{"nurse_id":87,"first_name":"Maurice","last_name":"Perrott","email":"mperrott2e@163.com","password":"$2a$04$azuo.2fMwpM47rEpqgq9FOYm/7U8i8Ir6Qz.4Gv9CBwPy2wFQiB1O"},
-{"nurse_id":88,"first_name":"Jeddy","last_name":"LaBastida","email":"jlabastida2f@shop-pro.jp","password":"$2a$04$NOuzRw75l37GM57uDki.euYSG5TJ5Ah5KM/qhhA5zE.ZgRLtXWIci"},
-{"nurse_id":89,"first_name":"Valeda","last_name":"Grigoroni","email":"vgrigoroni2g@pinterest.com","password":"$2a$04$7SABrnx5uijhctwP.nAB5uvsxDGadQsQk7e6hkf1aUhFFosYspYJW"},
-{"nurse_id":90,"first_name":"Cecilia","last_name":"Gair","email":"cgair2h@fotki.com","password":"$2a$04$uJBJTPCohfU/83/FCCroP.CwQRD3EVe0lNwiyE7iOpx8BHtSLSc9W"},
-{"nurse_id":91,"first_name":"Teodorico","last_name":"Poff","email":"tpoff2i@washingtonpost.com","password":"$2a$04$5vvQoRpFD22Qtoteh9XVsOzZoLxxzVWHT1oxysJVvANtIv/16Z9.W"},
-{"nurse_id":92,"first_name":"Ev","last_name":"Gummary","email":"egummary2j@digg.com","password":"$2a$04$PkcBXKASGlsRWcYEwCkotOyKoGQDXrqaQpC2YjZqjSlxOhsf0h9tK"},
-{"nurse_id":93,"first_name":"Halimeda","last_name":"Gresly","email":"hgresly2k@fda.gov","password":"$2a$04$rqpwqTiaXF/okt72rNDNiuF8s.t76wEABx2sOipeVTWf5PKA.aGgm"},
-{"nurse_id":94,"first_name":"Hallsy","last_name":"Mark","email":"hmark2l@geocities.jp","password":"$2a$04$6ObU/Nv/rOpaLEvU9LRiDuTQ.NjF.D9hdnBeOmPtlKeOyx60g9UA."},
-{"nurse_id":95,"first_name":"Morganne","last_name":"Amery","email":"mamery2m@blogger.com","password":"$2a$04$BcxcWQiI58/11T3beOLoju6ZtS.3zWM6fX.UOJg171EtzS4pWdAtm"},
-{"nurse_id":96,"first_name":"Marten","last_name":"Brazer","email":"mbrazer2n@4shared.com","password":"$2a$04$zG9dEU5swROSiw/u2hoxHOCqFG40fZQuMO8nxNDX2LvbV4ooeMA4W"},
-{"nurse_id":97,"first_name":"Fiona","last_name":"Vallentin","email":"fvallentin2o@unesco.org","password":"$2a$04$H3F61cBBMuf6hVybCuffBOvzGE/ztFmNrhYZ2t68bV4aOPXHwKBHm"},
-{"nurse_id":98,"first_name":"Silvanus","last_name":"Wormstone","email":"swormstone2p@plala.or.jp","password":"$2a$04$1.aK/26wAFU//yLpyqjjj.8VIciIh.VZegll8c.FPaOGTMtLerbtG"},
-{"nurse_id":99,"first_name":"Sheppard","last_name":"Negro","email":"snegro2q@adobe.com","password":"$2a$04$.MV9dC7Oh9wuytWE6GWm3.owpkwRVTscHaTDR/Ex0b4XxK9TfhhwC"},
-{"nurse_id":100,"first_name":"Vinny","last_name":"Rosini","email":"vrosini2r@odnoklassniki.ru","password":"$2a$04$6EYaoklyjQ26ZqBzmHrlsOOIOPM1FLBikouSNAMISWUTxQU0firNC"}
-  ]
+
+[
+  {
+    "password": "$2a$04$UJqN.u/FElgSeKb2XH.r4.XD1C.O50/DthiQiPtGCP1wlclBed1oq",
+    "last_name": "Bolland",
+    "nurse_id": 1,
+    "first_name": "Hayden",
+    "email": "hbolland0@cocolog-nifty.com"
+  },
+  {
+    "password": "$2a$04$79N5we2w5o7eeBZNJ1N3b.Wmtc4O5Q6fvbOZ/cTbmd8m8lqfeKqOC",
+    "last_name": "Esley",
+    "nurse_id": 2,
+    "first_name": "Bary",
+    "email": "besley1@msn.com"
+  },
+  {
+    "password": "$2a$04$BSxSH1/YmdDTbbseJEioye6QE9XVz4RdkyBgwvsgXTVwG8tHjCuUq",
+    "last_name": "Hylands",
+    "nurse_id": 3,
+    "first_name": "Eduardo",
+    "email": "ehylands2@plala.or.jp"
+  },
+  {
+    "password": "$2a$04$61I/Fk3By60vf5jMCki8Be3tewV/yXfEKyMfCKkO3pY7KIBFD87DG",
+    "last_name": "Miall",
+    "nurse_id": 4,
+    "first_name": "Cami",
+    "email": "cmiall3@naver.com"
+  },
+  {
+    "password": "$2a$04$LbAr2aUDhUIMMi2cLB/GiO2IpbjIpErvcV.P0kC/ZC4d1BHh5CRX2",
+    "last_name": "Stancliffe",
+    "nurse_id": 5,
+    "first_name": "Kiley",
+    "email": "kstancliffe4@imdb.com"
+  },
+  {
+    "password": "$2a$04$YqlkHQgEoAG7EXftGMMOCeJnDQoH8BM/q8RlVsuDbiP2p94DpliRC",
+    "last_name": "Leaf",
+    "nurse_id": 6,
+    "first_name": "Geri",
+    "email": "gleaf5@cpanel.net"
+  },
+  {
+    "password": "$2a$04$85dtaps4elDxGaOx6cl33ObQho/GZ.U9JysN4wT7BJmFxl1cuIFMC",
+    "last_name": "Cours",
+    "nurse_id": 7,
+    "first_name": "Correy",
+    "email": "ccours6@auda.org.au"
+  },
+  {
+    "password": "$2a$04$pnzejprdHcami6KtuW0ske6bBGlDCnnEjcmSd/2x4ffI/ZpJvGihK",
+    "last_name": "Blackater",
+    "nurse_id": 8,
+    "first_name": "Laurel",
+    "email": "lblackater7@youtube.com"
+  },
+  {
+    "password": "$2a$04$k253Bpf8uIAYjes44xo49.WEDr1CEPDwtDJSEgJFUkiPPa6uCQvxi",
+    "last_name": "Schapiro",
+    "nurse_id": 9,
+    "first_name": "Katharina",
+    "email": "kschapiro8@elpais.com"
+  },
+  {
+    "password": "$2a$04$WzjARHsnkErfUkT7NHV9n.KRhOlWRFJrXF9yS.kkr1Gh/LcZ3wjLa",
+    "last_name": "Godney",
+    "nurse_id": 10,
+    "first_name": "Bradford",
+    "email": "bgodney9@uiuc.edu"
+  },
+  {
+    "password": "$2a$04$Nmi4Dh94yMb/Kn5YqUqCeOb3q9qO6HvmbjE9Zb5B2ExtjBm83PBIO",
+    "last_name": "Pawson",
+    "nurse_id": 11,
+    "first_name": "Cassy",
+    "email": "cpawsona@w3.org"
+  },
+  {
+    "password": "$2a$04$fxrRrlsZOUYhybjSRkiYzOq8gGO54Tp/ILJF8wfjBNfJD8csTfJAi",
+    "last_name": "Yerrill",
+    "nurse_id": 12,
+    "first_name": "Erna",
+    "email": "eyerrillb@patch.com"
+  },
+  {
+    "password": "$2a$04$4OcioAFCck5AE1YLJugsSOM.O.M/EqEdZJzkYXeZG8imtWetJj8Dy",
+    "last_name": "McCaffrey",
+    "nurse_id": 13,
+    "first_name": "Berget",
+    "email": "bmccaffreyc@blog.com"
+  },
+  {
+    "password": "$2a$04$e2YjIidXv2x5IBHs10MrzOr1/tfeWaiOhNctecI3JYvW0WLSOlYZi",
+    "last_name": "Edgson",
+    "nurse_id": 14,
+    "first_name": "Rina",
+    "email": "redgsond@europa.eu"
+  },
+  {
+    "password": "$2a$04$Pvgr261T9E72tTr1zd0aK.0MiPaChmqkZudgp3Da1OSPBlr1fBq5S",
+    "last_name": "Oakey",
+    "nurse_id": 15,
+    "first_name": "Grannie",
+    "email": "goakeye@blogtalkradio.com"
+  },
+  {
+    "password": "$2a$04$QdffyROi.0JcDXq9eLlN.u.eh.yZ242JG4SGOjW8Uo6fGbeUbnYay",
+    "last_name": "Spadoni",
+    "nurse_id": 16,
+    "first_name": "Mame",
+    "email": "mspadonif@washingtonpost.com"
+  },
+  {
+    "password": "$2a$04$ibMuc2Xq96hj9kgCuaz7EOQH04jjj6dUJWr/8xmLVa7gtQWe24kKW",
+    "last_name": "Goodbur",
+    "nurse_id": 17,
+    "first_name": "Powell",
+    "email": "pgoodburg@webeden.co.uk"
+  },
+  {
+    "password": "$2a$04$bCQ0.vhHfxX7SX5K2FHS.OBhiL.UTmYzyz78aXH94tTMW1PWhGCre",
+    "last_name": "Wethers",
+    "nurse_id": 18,
+    "first_name": "Kalle",
+    "email": "kwethersh@yelp.com"
+  },
+  {
+    "password": "$2a$04$vWWIQT2cVdOwGj2KXDmzmO3LUKK6.pXAbX0uiwqIBkEjM6GwMmrce",
+    "last_name": "Facer",
+    "nurse_id": 19,
+    "first_name": "Bradly",
+    "email": "bfaceri@yahoo.co.jp"
+  },
+  {
+    "password": "$2a$04$Bd8fsf3ItjFBk5NOT9qPY.z8/m7JAlk7SroF6xHwUIM80shlyfV/e",
+    "last_name": "Arnoll",
+    "nurse_id": 20,
+    "first_name": "Inesita",
+    "email": "iarnollj@privacy.gov.au"
+  },
+  {
+    "password": "$2a$04$D48kPRdUNnpMZ7wyfR0gyOmTrL5VPplAkxSqfjCNuxvC26CJxWaPW",
+    "last_name": "Illston",
+    "nurse_id": 21,
+    "first_name": "Marcel",
+    "email": "millstonk@google.it"
+  },
+  {
+    "password": "$2a$04$g0iEWp8QDC8VchJgSrfWNuHQWFQDr.kFdjsfa8W4zd4CRTU3xR4km",
+    "last_name": "Joliffe",
+    "nurse_id": 22,
+    "first_name": "Bing",
+    "email": "bjoliffel@ask.com"
+  },
+  {
+    "password": "$2a$04$v2HF2DhsKmQfJSyPZcAhMuuNP3WaU3gZB8/tLZYoe5UObiHtDPpii",
+    "last_name": "Clapshaw",
+    "nurse_id": 23,
+    "first_name": "Mellisent",
+    "email": "mclapshawm@hp.com"
+  },
+  {
+    "password": "$2a$04$t1.HX.qAB3UkGAh25RIMCO58u4UUWOqRT6mrILigsM2k4NPHHaMCS",
+    "last_name": "Gatus",
+    "nurse_id": 24,
+    "first_name": "Gardener",
+    "email": "ggatusn@craigslist.org"
+  },
+  {
+    "password": "$2a$04$wiMzxXyF8zLdKzaFlWmXmOcu2WOK9cdLh0k6Nov0nBjS0BGWiJ/jG",
+    "last_name": "Carswell",
+    "nurse_id": 25,
+    "first_name": "Catherin",
+    "email": "ccarswello@wufoo.com"
+  },
+  {
+    "password": "$2a$04$ch9T8txreXleMsj8w.Zq3.iamiN.A7xcpD3BG.D9R7aOyITaY9a9i",
+    "last_name": "Rudgard",
+    "nurse_id": 26,
+    "first_name": "Trudi",
+    "email": "trudgardp@wikipedia.org"
+  },
+  {
+    "password": "$2a$04$Rcv0LY/kdXZqNfNYPOOAlOMa2idw5IRNedoyr1oB9OLXaYWWrDZ8.",
+    "last_name": "Paice",
+    "nurse_id": 27,
+    "first_name": "Fanya",
+    "email": "fpaiceq@goo.ne.jp"
+  },
+  {
+    "password": "$2a$04$CnyPRErQqQhLMskc33gP9Oj8dQGJ82Sh0jatOgPk7TLHnQdqZv1ee",
+    "last_name": "Norgan",
+    "nurse_id": 28,
+    "first_name": "Christoper",
+    "email": "cnorganr@go.com"
+  },
+  {
+    "password": "$2a$04$O/1N9UGYbtZcapG0.W7RseywuCz.xkPuzaJtrpvnGY0iFNHRxs5iC",
+    "last_name": "O'Kuddyhy",
+    "nurse_id": 29,
+    "first_name": "Flemming",
+    "email": "fokuddyhys@indiegogo.com"
+  },
+  {
+    "password": "$2a$04$RgoDpOJ9b4L4yo69G/QaVeY4tcsu/yaQj4pX0nZ/zAkyaQJcN6dbi",
+    "last_name": "Cozzi",
+    "nurse_id": 30,
+    "first_name": "Justino",
+    "email": "jcozzit@un.org"
+  },
+  {
+    "password": "$2a$04$FXsKY060gK3vv7b18IiEcO/505zyQvMzAeB87t7KMZZiUVCYaTZee",
+    "last_name": "Shotboult",
+    "nurse_id": 31,
+    "first_name": "Guenna",
+    "email": "gshotboultu@friendfeed.com"
+  },
+  {
+    "password": "$2a$04$HwNVqspfbGmrE87Qotth6eSQmmQ35kJj8J5XCHAM7EUhoz18PIZgG",
+    "last_name": "Skaife d'Ingerthorpe",
+    "nurse_id": 32,
+    "first_name": "Ode",
+    "email": "oskaifedingerthorpev@hc360.com"
+  },
+  {
+    "password": "$2a$04$W2ks.XM2EpSG1qmoRKiwF.VranoLkMC3g0cAhnf4fHQ1NPXAQYVAe",
+    "last_name": "Bryson",
+    "nurse_id": 33,
+    "first_name": "Myer",
+    "email": "mbrysonw@bloglovin.com"
+  },
+  {
+    "password": "$2a$04$XtQs9pVGAnUnWGnRNyT0..xREJT07ecWVcxnUMxOclWbpXnHACPx2",
+    "last_name": "Rens",
+    "nurse_id": 34,
+    "first_name": "Estele",
+    "email": "erensx@sfgate.com"
+  },
+  {
+    "password": "$2a$04$2rnm0LGiTWR5GpXIhISwXO7Xqi1pvqSy7mW5v9/8o2pSZ82UgnsTi",
+    "last_name": "Penswick",
+    "nurse_id": 35,
+    "first_name": "Chrissie",
+    "email": "cpenswicky@issuu.com"
+  },
+  {
+    "password": "$2a$04$/HRYPU9CQp4VtLnruc/jrORThBcRuBHtGm/ELQYUikeHwdENW67pW",
+    "last_name": "Farquar",
+    "nurse_id": 36,
+    "first_name": "Cassi",
+    "email": "cfarquarz@ovh.net"
+  },
+  {
+    "password": "$2a$04$X96n2jq.8c1CEuzaw3gvgOi177VNLuoWcu83JMu2wEn4NphEpi79i",
+    "last_name": "Tuffin",
+    "nurse_id": 37,
+    "first_name": "Ami",
+    "email": "atuffin10@sakura.ne.jp"
+  },
+  {
+    "password": "$2a$04$RHXX51SSafPajziAO4Yg6e6C7yq8Amcdxga9FLe8g/ubJA6WRi2fi",
+    "last_name": "Futter",
+    "nurse_id": 38,
+    "first_name": "Jase",
+    "email": "jfutter11@biglobe.ne.jp"
+  },
+  {
+    "password": "$2a$04$PCjJdPhpCTCfXkyJJBPnC.BvB6vSTZA2h5WRgpZbnj/1ZyDBCWAIq",
+    "last_name": "Bellerby",
+    "nurse_id": 39,
+    "first_name": "Waneta",
+    "email": "wbellerby12@lycos.com"
+  },
+  {
+    "password": "$2a$04$wXrSYV8NLebmGOximia7mel0v7ltlE6gJK63.5V6rblm0ROU7OPia",
+    "last_name": "Bruckman",
+    "nurse_id": 40,
+    "first_name": "Chance",
+    "email": "cbruckman13@oakley.com"
+  },
+  {
+    "password": "$2a$04$Xo1GEmnIPVlQXuHqBD3BZuQfW9CmJvI8elzmVwEpprP8U699RooZq",
+    "last_name": "Grimstead",
+    "nurse_id": 41,
+    "first_name": "Darwin",
+    "email": "dgrimstead14@scientificamerican.com"
+  },
+  {
+    "password": "$2a$04$HRSJwxn04y7FdQAmhpH/Q.Odhl27SChcmVE.DVvjvZTNFWKpK4ojO",
+    "last_name": "Deniscke",
+    "nurse_id": 42,
+    "first_name": "Jasun",
+    "email": "jdeniscke15@paypal.com"
+  },
+  {
+    "password": "$2a$04$lwwL8VOSlX8o5B1WdHNg9ulYN926lLuMiji011YzDtkv1qGPqqjo2",
+    "last_name": "Moff",
+    "nurse_id": 43,
+    "first_name": "Marthena",
+    "email": "mmoff16@icio.us"
+  },
+  {
+    "password": "$2a$04$0cW/xLGyKZfAqLzp.G9yOOY.9ZP1tlqcX5SNCzA2aQIUNu7.CMcqi",
+    "last_name": "Barriball",
+    "nurse_id": 44,
+    "first_name": "Gordan",
+    "email": "gbarriball17@si.edu"
+  },
+  {
+    "password": "$2a$04$sjjd0r6I5kqRJ9hhV1Ev9OwVNs8DlpWZHnFuxY6CMc9isd5YbinwK",
+    "last_name": "Das",
+    "nurse_id": 45,
+    "first_name": "Freda",
+    "email": "fdas18@blogtalkradio.com"
+  },
+  {
+    "password": "$2a$04$jc9knlnRy.FwJAdo.8Ir6.mG1iSWV.PHu9.YFOLziUQHKMTXtGIl.",
+    "last_name": "Piotrowski",
+    "nurse_id": 46,
+    "first_name": "Fan",
+    "email": "fpiotrowski19@etsy.com"
+  },
+  {
+    "password": "$2a$04$4NtXX0Xb0meQyNviZonBheGvbpZgBYdi40K/5/gnOuH9/lVCxQQnG",
+    "last_name": "Faucett",
+    "nurse_id": 47,
+    "first_name": "Cahra",
+    "email": "cfaucett1a@blinklist.com"
+  },
+  {
+    "password": "$2a$04$/mkKndX/GMzK8BwaB0aApelxnZT80rFYaCFAU.r2wktDzuYa9DcIe",
+    "last_name": "Garnul",
+    "nurse_id": 48,
+    "first_name": "Melody",
+    "email": "mgarnul1b@nifty.com"
+  },
+  {
+    "password": "$2a$04$Luh1EAwCafIwCaPKbYN21ucLOlDFHdnCUwkbBEqADMkLoL2TTyR1i",
+    "last_name": "Bartaletti",
+    "nurse_id": 49,
+    "first_name": "Sosanna",
+    "email": "sbartaletti1c@independent.co.uk"
+  },
+  {
+    "password": "$2a$04$uRGAnGZJcPamnE2nqd5cm.gYxMrWDNID5i4r5oPLeHSGo5kXihTiC",
+    "last_name": "MacNeilage",
+    "nurse_id": 50,
+    "first_name": "Rabbi",
+    "email": "rmacneilage1d@merriam-webster.com"
+  },
+  {
+    "password": "$2a$04$drD7odXBY4WQW8i5Mbn5s.Bg4.JralYvELcG7YdOHSgo14fV9LB2S",
+    "last_name": "Lapere",
+    "nurse_id": 51,
+    "first_name": "Marshal",
+    "email": "mlapere1e@marketwatch.com"
+  },
+  {
+    "password": "$2a$04$vCRlvFN3Ly2O4zqV0ILcFubNQsfDDhNEIoK8vGH4c9KRXuX0sEULi",
+    "last_name": "Shingfield",
+    "nurse_id": 52,
+    "first_name": "Melodee",
+    "email": "mshingfield1f@geocities.jp"
+  },
+  {
+    "password": "$2a$04$85lSBWef1hzjfMoEZMlZkujr1UHVeW9NO0tqZC7MOLnh1awnUkQTm",
+    "last_name": "Tuffrey",
+    "nurse_id": 53,
+    "first_name": "Hilario",
+    "email": "htuffrey1g@skyrock.com"
+  },
+  {
+    "password": "$2a$04$SzD8Zxe2/zXpRSVoq.T9YeIBqNXbHrk9Cdp3srCT44lRKOXNjCF3e",
+    "last_name": "Heck",
+    "nurse_id": 54,
+    "first_name": "Rand",
+    "email": "rheck1h@histats.com"
+  },
+  {
+    "password": "$2a$04$645D3XNj6kryO8R6D59hWuXU5j41BhTHDvq2tOLOL1U7WWqMXXdH6",
+    "last_name": "Greeves",
+    "nurse_id": 55,
+    "first_name": "Marielle",
+    "email": "mgreeves1i@berkeley.edu"
+  },
+  {
+    "password": "$2a$04$dn082Cesa.IE7axIZCwGsecb/S./uRXbw8BbM6c581qKcn49ZwSta",
+    "last_name": "Postans",
+    "nurse_id": 56,
+    "first_name": "Marthena",
+    "email": "mpostans1j@globo.com"
+  },
+  {
+    "password": "$2a$04$HTfj5zx2fyhrMtJjI8rFYu4mtyFxOkSvKn7Z./r.dISzp.Wmk48MO",
+    "last_name": "Collar",
+    "nurse_id": 57,
+    "first_name": "Paula",
+    "email": "pcollar1k@weebly.com"
+  },
+  {
+    "password": "$2a$04$szVrUMXbOdAuo5uNS.R7Vu4GU4Bo2Ec79bKk99RXoK/EzSqKdxpKm",
+    "last_name": "Garrard",
+    "nurse_id": 58,
+    "first_name": "Huey",
+    "email": "hgarrard1l@amazon.co.jp"
+  },
+  {
+    "password": "$2a$04$7eSYnBf85XKggINbTSe/ReCJWOfGrz/URaW6NH.5esltmX6jaYZLS",
+    "last_name": "Scarlan",
+    "nurse_id": 59,
+    "first_name": "Con",
+    "email": "cscarlan1m@gov.uk"
+  },
+  {
+    "password": "$2a$04$AKZUX7tsPEmDLTJ8XfyzFeyPyPmos/E5pObUncbvNsoSb.WVmixau",
+    "last_name": "Ruggen",
+    "nurse_id": 60,
+    "first_name": "Malina",
+    "email": "mruggen1n@mashable.com"
+  },
+  {
+    "password": "$2a$04$xyk9VagZTzs7CTPKH7.jQOBhV7.aA9Z1PQTg6XDmKbXRjF6HBGVG2",
+    "last_name": "Betteridge",
+    "nurse_id": 61,
+    "first_name": "Adoree",
+    "email": "abetteridge1o@wired.com"
+  },
+  {
+    "password": "$2a$04$O.1XptcGMG9WQp1bsAmXMuBWFltfix4XMKKp4T41MKsPtwLpUP5FC",
+    "last_name": "Raiker",
+    "nurse_id": 62,
+    "first_name": "Laryssa",
+    "email": "lraiker1p@sitemeter.com"
+  },
+  {
+    "password": "$2a$04$zHdVuPS5oasU3q2ggCrEdu7v8dBx19O7nSnruTZYFjHr66cVT2kuu",
+    "last_name": "Lazare",
+    "nurse_id": 63,
+    "first_name": "Garland",
+    "email": "glazare1q@altervista.org"
+  },
+  {
+    "password": "$2a$04$mKz1tHo.VX5sgx6/.pZpHewkQPCNbW9AJS8KCqIaml8lJ/HbTJ5A6",
+    "last_name": "Beneze",
+    "nurse_id": 64,
+    "first_name": "Orelie",
+    "email": "obeneze1r@i2i.jp"
+  },
+  {
+    "password": "$2a$04$XZ3brpTPCZxVPY2ewdtfQO5W.i8WWRcgVtx0wiOTNnP7i9W8ZiIri",
+    "last_name": "Gregolin",
+    "nurse_id": 65,
+    "first_name": "Hernando",
+    "email": "hgregolin1s@howstuffworks.com"
+  },
+  {
+    "password": "$2a$04$EHB5ZqIaR2MbR0FCqR2e/ON5wuR6fwHyMM8WpwZAF.RuKp9nnfj36",
+    "last_name": "Lillgard",
+    "nurse_id": 66,
+    "first_name": "Conrade",
+    "email": "clillgard1t@theatlantic.com"
+  },
+  {
+    "password": "$2a$04$Ui1.pchA5DrhCI4nEe9IZ.nJojb.mATFPiM6exagaLILqtmGtHGnS",
+    "last_name": "Fache",
+    "nurse_id": 67,
+    "first_name": "Jermayne",
+    "email": "jfache1u@ocn.ne.jp"
+  },
+  {
+    "password": "$2a$04$WYd5F6QeE8w5gjGHvJcOm.NH7jsVBOe3hSOWxASRiX9IaS77pQG3a",
+    "last_name": "Blesdill",
+    "nurse_id": 68,
+    "first_name": "Judye",
+    "email": "jblesdill1v@usgs.gov"
+  },
+  {
+    "password": "$2a$04$gayKR355Fs2JWUruRlpPrOH9LjMqFraxgZ7Tsa/TPnvkXLDVFGEyW",
+    "last_name": "Van Arsdall",
+    "nurse_id": 69,
+    "first_name": "Friedrich",
+    "email": "fvanarsdall1w@columbia.edu"
+  },
+  {
+    "password": "$2a$04$Gof/qQm7QttRDPFxDaXm8.NQV4EDZuOhBdKp7EXe1F9ROBnhi9Sxq",
+    "last_name": "Holton",
+    "nurse_id": 70,
+    "first_name": "Hettie",
+    "email": "hholton1x@howstuffworks.com"
+  },
+  {
+    "password": "$2a$04$gD/YASLZeu.UX8OxboXGMupdbRwCUbhaesbbyjmK39jeg72EZomq.",
+    "last_name": "Dawkes",
+    "nurse_id": 71,
+    "first_name": "Dominique",
+    "email": "ddawkes1y@omniture.com"
+  },
+  {
+    "password": "$2a$04$.x.wFWquxyAdwEkbkOLSZe3OotqAEQkgWUYJYxJD3JFZVDVGjNKbO",
+    "last_name": "Jeste",
+    "nurse_id": 72,
+    "first_name": "Weylin",
+    "email": "wjeste1z@phpbb.com"
+  },
+  {
+    "password": "$2a$04$6LFl6JPF24Ze.OdKzuf0lenXKCPiOLZ8U96n/3RuEGgXp0AXuulTO",
+    "last_name": "Edgerley",
+    "nurse_id": 73,
+    "first_name": "Caron",
+    "email": "cedgerley20@tiny.cc"
+  },
+  {
+    "password": "$2a$04$PWkhkxBFwUymwOFQV9PNnutmy4EJNr07N9VKf/6UDHn3rR5tDIeua",
+    "last_name": "Reymers",
+    "nurse_id": 74,
+    "first_name": "Freddi",
+    "email": "freymers21@flickr.com"
+  },
+  {
+    "password": "$2a$04$08CNVoOUpyFLF8/rqcjAzumv9McKuzwfehox9yTArAjoqotC5gFqC",
+    "last_name": "Rush",
+    "nurse_id": 75,
+    "first_name": "Shara",
+    "email": "srush22@nymag.com"
+  },
+  {
+    "password": "$2a$04$ShHS.0UKtDahWzfcTG9C9.zh0dLFSrNVf2pQGWK22i5yOTq3r1pI6",
+    "last_name": "Curtin",
+    "nurse_id": 76,
+    "first_name": "Niki",
+    "email": "ncurtin23@so-net.ne.jp"
+  },
+  {
+    "password": "$2a$04$ypIgKufloUdcfkTTVy972.NqyPWxD/OBBCaXy.KGhyL53VWikjcTu",
+    "last_name": "Kydde",
+    "nurse_id": 77,
+    "first_name": "Kylen",
+    "email": "kkydde24@home.pl"
+  },
+  {
+    "password": "$2a$04$WVpPA3PWrm8d1RIT5t9TMOe5v75Wn/kC46o86Q4x2z6pP8nnFJBea",
+    "last_name": "Ackenson",
+    "nurse_id": 78,
+    "first_name": "Yorke",
+    "email": "yackenson25@myspace.com"
+  },
+  {
+    "password": "$2a$04$mpb0wbSsZ7mMFccbxhT6ROmhVclQ8fsNjv.9YU7J0bGEelGrLQyJC",
+    "last_name": "Bonnett",
+    "nurse_id": 79,
+    "first_name": "Gerhardt",
+    "email": "gbonnett26@pagesperso-orange.fr"
+  },
+  {
+    "password": "$2a$04$DdZbZaT49/RkKfawrEEYDOA7XkF26UfkUuhcsthtoT7gts0aRL1E6",
+    "last_name": "Sopper",
+    "nurse_id": 80,
+    "first_name": "Benita",
+    "email": "bsopper27@51.la"
+  },
+  {
+    "password": "$2a$04$2mkRxwNLE2PT4QB2MFWCDeVf6Sw6hUyDECUCNls9c0/ccRZHD1.76",
+    "last_name": "Priscott",
+    "nurse_id": 81,
+    "first_name": "Amie",
+    "email": "apriscott28@cornell.edu"
+  },
+  {
+    "password": "$2a$04$sy63L3AYnRp.7WuAPRDHXO5OTNOhFJnHCTd.CEpsoeivM0cPULtmC",
+    "last_name": "Candwell",
+    "nurse_id": 82,
+    "first_name": "Antonin",
+    "email": "acandwell29@istockphoto.com"
+  },
+  {
+    "password": "$2a$04$BFtZECk0c6PR.NniWL2PW.6wdcGzFcF2CzS7LtQdurm7zeo8E6pEC",
+    "last_name": "Troker",
+    "nurse_id": 83,
+    "first_name": "Pierson",
+    "email": "ptroker2a@gmpg.org"
+  },
+  {
+    "password": "$2a$04$D4eSaSMzOBAZ1CdhhEu/f.rHf9RUwrSDrJ4ypgioOYag6ZDMS7Z9.",
+    "last_name": "Gapp",
+    "nurse_id": 84,
+    "first_name": "Othelia",
+    "email": "ogapp2b@bizjournals.com"
+  },
+  {
+    "password": "$2a$04$9iVUCBtRH/IaFHX09GHNweNhki2M870VmkGgo0Za2bICE5Ck9iOma",
+    "last_name": "Allcoat",
+    "nurse_id": 85,
+    "first_name": "Leone",
+    "email": "lallcoat2c@purevolume.com"
+  },
+  {
+    "password": "$2a$04$sLrlt3HC2u6pIhqb1T8Ffefjr4z9f/8sL3hgiJSjDLCj0xRs0iBim",
+    "last_name": "Crab",
+    "nurse_id": 86,
+    "first_name": "Teador",
+    "email": "tcrab2d@icq.com"
+  },
+  {
+    "password": "$2a$04$azuo.2fMwpM47rEpqgq9FOYm/7U8i8Ir6Qz.4Gv9CBwPy2wFQiB1O",
+    "last_name": "Perrott",
+    "nurse_id": 87,
+    "first_name": "Maurice",
+    "email": "mperrott2e@163.com"
+  },
+  {
+    "password": "$2a$04$NOuzRw75l37GM57uDki.euYSG5TJ5Ah5KM/qhhA5zE.ZgRLtXWIci",
+    "last_name": "LaBastida",
+    "nurse_id": 88,
+    "first_name": "Jeddy",
+    "email": "jlabastida2f@shop-pro.jp"
+  },
+  {
+    "password": "$2a$04$7SABrnx5uijhctwP.nAB5uvsxDGadQsQk7e6hkf1aUhFFosYspYJW",
+    "last_name": "Grigoroni",
+    "nurse_id": 89,
+    "first_name": "Valeda",
+    "email": "vgrigoroni2g@pinterest.com"
+  },
+  {
+    "password": "$2a$04$uJBJTPCohfU/83/FCCroP.CwQRD3EVe0lNwiyE7iOpx8BHtSLSc9W",
+    "last_name": "Gair",
+    "nurse_id": 90,
+    "first_name": "Cecilia",
+    "email": "cgair2h@fotki.com"
+  },
+  {
+    "password": "$2a$04$5vvQoRpFD22Qtoteh9XVsOzZoLxxzVWHT1oxysJVvANtIv/16Z9.W",
+    "last_name": "Poff",
+    "nurse_id": 91,
+    "first_name": "Teodorico",
+    "email": "tpoff2i@washingtonpost.com"
+  },
+  {
+    "password": "$2a$04$PkcBXKASGlsRWcYEwCkotOyKoGQDXrqaQpC2YjZqjSlxOhsf0h9tK",
+    "last_name": "Gummary",
+    "nurse_id": 92,
+    "first_name": "Ev",
+    "email": "egummary2j@digg.com"
+  },
+  {
+    "password": "$2a$04$rqpwqTiaXF/okt72rNDNiuF8s.t76wEABx2sOipeVTWf5PKA.aGgm",
+    "last_name": "Gresly",
+    "nurse_id": 93,
+    "first_name": "Halimeda",
+    "email": "hgresly2k@fda.gov"
+  },
+  {
+    "password": "$2a$04$6ObU/Nv/rOpaLEvU9LRiDuTQ.NjF.D9hdnBeOmPtlKeOyx60g9UA.",
+    "last_name": "Mark",
+    "nurse_id": 94,
+    "first_name": "Hallsy",
+    "email": "hmark2l@geocities.jp"
+  },
+  {
+    "password": "$2a$04$BcxcWQiI58/11T3beOLoju6ZtS.3zWM6fX.UOJg171EtzS4pWdAtm",
+    "last_name": "Amery",
+    "nurse_id": 95,
+    "first_name": "Morganne",
+    "email": "mamery2m@blogger.com"
+  },
+  {
+    "password": "$2a$04$zG9dEU5swROSiw/u2hoxHOCqFG40fZQuMO8nxNDX2LvbV4ooeMA4W",
+    "last_name": "Brazer",
+    "nurse_id": 96,
+    "first_name": "Marten",
+    "email": "mbrazer2n@4shared.com"
+  },
+  {
+    "password": "$2a$04$H3F61cBBMuf6hVybCuffBOvzGE/ztFmNrhYZ2t68bV4aOPXHwKBHm",
+    "last_name": "Vallentin",
+    "nurse_id": 97,
+    "first_name": "Fiona",
+    "email": "fvallentin2o@unesco.org"
+  },
+  {
+    "password": "$2a$04$1.aK/26wAFU//yLpyqjjj.8VIciIh.VZegll8c.FPaOGTMtLerbtG",
+    "last_name": "Wormstone",
+    "nurse_id": 98,
+    "first_name": "Silvanus",
+    "email": "swormstone2p@plala.or.jp"
+  },
+  {
+    "password": "$2a$04$.MV9dC7Oh9wuytWE6GWm3.owpkwRVTscHaTDR/Ex0b4XxK9TfhhwC",
+    "last_name": "Negro",
+    "nurse_id": 99,
+    "first_name": "Sheppard",
+    "email": "snegro2q@adobe.com"
+  },
+  {
+    "password": "$2a$04$6EYaoklyjQ26ZqBzmHrlsOOIOPM1FLBikouSNAMISWUTxQU0firNC",
+    "last_name": "Rosini",
+    "nurse_id": 100,
+    "first_name": "Vinny",
+    "email": "vrosini2r@odnoklassniki.ru"
+  },
+  {
+    "password": "$2a$10$WgReyOlR0/N/8Qxyj30ut.i6b9C3HU7GSxVcEu8KrBOH9XC6xEzIy",
+    "last_name": "Enfermero",
+    "nurse_id": 101,
+    "first_name": "Nuevo",
+    "email": "nuevo@correo.com"
+  }
+]
