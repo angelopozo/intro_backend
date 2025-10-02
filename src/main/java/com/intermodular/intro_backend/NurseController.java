@@ -1,5 +1,12 @@
 package com.intermodular.intro_backend;
 
+
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,9 +17,20 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+
 @RestController
 @RequestMapping("/nurse")
 public class NurseController {
+
+
+
+
+
+}
 
     private final JSONArray listNurses = new JSONArray();
     private final NurseService nurseService;
@@ -72,4 +90,16 @@ public class NurseController {
 
         return ResponseEntity.ok(response);
     }
+    @GetMapping(value = "/index",
+    produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<JSONArray> getAllNurses() throws IOException {
+        String content = new String(Files.readAllBytes(Paths.get("src/main/resources/data/nurse.json")));
+        JSONArray nurses = new JSONArray(content);
+
+        System.out.println(content);
+
+        return ResponseEntity.ok(nurses);
+    }
+
 }
+
