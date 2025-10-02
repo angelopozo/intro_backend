@@ -43,12 +43,12 @@ public class NurseController {
     }
 
     @GetMapping("/name/{name}")
-    public ResponseEntity<JSONObject> findByName(@PathVariable String name) {
+    public ResponseEntity<Map<String, Object>> findByName(@PathVariable String name) {
         for (int i = 0; i < listNurses.length(); i++) {
             JSONObject n = listNurses.getJSONObject(i);
 
-            if (n.getString("name").equals(name)) {
-                return ResponseEntity.ok(n);
+            if (n.getString("first_name").equals(name)) {
+                return ResponseEntity.ok(n.toMap());
             }
         }
         return ResponseEntity.notFound().build();
