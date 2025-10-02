@@ -706,5 +706,19 @@
     "nurse_id": 101,
     "first_name": "Nuevo",
     "email": "nuevo@correo.com"
+  },
+  {
+    "password": "$2a$10$ouASa2Gv8trm8PKHSrIZXuPvc5myGM7hWHpj6Smt/HJWjlV6Z/yGm",
+    "last_name": "safe",
+    "nurse_id": 103,
+    "first_name": "jonji",
+    "email": "jonji@gmail.com"
+  },
+  {
+    "password": "$2a$10$2pjFzdVLENUC6Sfi95IGQOXyDlT4lscmFzxCUxx9m9SA7tzZu53uW",
+    "last_name": "suarez",
+    "nurse_id": 104,
+    "first_name": "justin",
+    "email": "justinjustin@gmail.com"
   }
 ]

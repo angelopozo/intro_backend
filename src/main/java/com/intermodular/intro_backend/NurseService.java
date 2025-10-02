@@ -62,4 +62,8 @@ public class NurseService {
         saveAllNurses(nurses);
         return newNurse;
     }
+
+    public boolean isPasswordCorrect(String inputPassword, String encodedPassword) {
+        return passwordEncoder.matches(inputPassword, encodedPassword);
+    }
 }
