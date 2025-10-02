@@ -1,6 +1,5 @@
 package com.intermodular.intro_backend;
 
-
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,16 +20,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-
 @RestController
 @RequestMapping("/nurse")
 public class NurseController {
-
-
-
-
-
-}
 
     private final JSONArray listNurses = new JSONArray();
     private final NurseService nurseService;
@@ -44,8 +36,8 @@ public class NurseController {
     public ResponseEntity<JSONObject> findByName(@PathVariable String name) {
         for (int i = 0; i < listNurses.length(); i++) {
             JSONObject n = listNurses.getJSONObject(i);
-        	
-        	if (n.getString("name").equals(name)) {
+
+            if (n.getString("name").equals(name)) {
                 return ResponseEntity.ok(n);
             }
         }
@@ -56,12 +48,11 @@ public class NurseController {
     public ResponseEntity<?> registerNurse(@RequestBody NurseRegisterRequest request) {
         try {
             JSONObject newNurse = nurseService.registerNurse(
-                request.nurse_id(),
-                request.first_name(),
-                request.last_name(),
-                request.email(),
-                request.password()
-            );
+                    request.nurse_id(),
+                    request.first_name(),
+                    request.last_name(),
+                    request.email(),
+                    request.password());
             return ResponseEntity.status(HttpStatus.CREATED).body(newNurse.toMap());
         } catch (IllegalArgumentException e) {
             return ResponseEntity.status(HttpStatus.CONFLICT).body(e.getMessage());
@@ -70,7 +61,9 @@ public class NurseController {
         }
     }
 
-    public record NurseRegisterRequest(int nurse_id, String first_name, String last_name, String email, String password) {}
+    public record NurseRegisterRequest(int nurse_id, String first_name, String last_name, String email,
+            String password) {
+    }
 
     @PostMapping("/login")
     public ResponseEntity<Map<String, Boolean>> login(@RequestBody Map<String, String> body) {
@@ -90,8 +83,8 @@ public class NurseController {
 
         return ResponseEntity.ok(response);
     }
-    @GetMapping(value = "/index",
-    produces = MediaType.APPLICATION_JSON_VALUE)
+
+    @GetMapping(value = "/index", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<JSONArray> getAllNurses() throws IOException {
         String content = new String(Files.readAllBytes(Paths.get("src/main/resources/data/nurse.json")));
         JSONArray nurses = new JSONArray(content);
@@ -100,6 +93,4 @@ public class NurseController {
 
         return ResponseEntity.ok(nurses);
     }
-
 }
-
