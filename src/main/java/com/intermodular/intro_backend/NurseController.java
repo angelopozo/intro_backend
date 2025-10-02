@@ -1,5 +1,8 @@
 package com.intermodular.intro_backend;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,4 +53,23 @@ public class NurseController {
     }
 
     public record NurseRegisterRequest(int nurse_id, String first_name, String last_name, String email, String password) {}
+
+    @PostMapping("/login")
+    public ResponseEntity<Map<String, Boolean>> login(@RequestBody Map<String, String> body) {
+        String name = body.get("name");
+        String password = body.get("password");
+        boolean answer = false;
+        for (int i = 0; i < listNurses.length(); i++) {
+            JSONObject nurse = listNurses.getJSONObject(i);
+            if (nurse.getString("name").equals(name) && nurse.getString("password").equals(password)) {
+                answer = true;
+                break;
+            }
+        }
+
+        Map<String, Boolean> response = new HashMap<>();
+        response.put("response", answer);
+
+        return ResponseEntity.ok(response);
+    }
 }
