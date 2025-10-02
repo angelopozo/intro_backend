@@ -84,7 +84,7 @@ public class NurseController {
         return ResponseEntity.ok(response);
     }
 
-    @GetMapping(value = "/index", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping("/index")
     public ResponseEntity<JSONArray> getAllNurses() throws IOException {
         String content = new String(Files.readAllBytes(Paths.get("src/main/resources/data/nurse.json")));
         JSONArray nurses = new JSONArray(content);
