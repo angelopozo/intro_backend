@@ -109,7 +109,6 @@ public class NurseController {
             if (nurse.getString("first_name").equalsIgnoreCase(firstName) &&
                     passwordEncoder.matches(password, nurse.getString("password"))) {
                 authenticated = true;
-                // Marcamos la sesión como iniciada con el first_name
                 session.setAttribute("user", firstName);
                 break;
             }
@@ -123,7 +122,6 @@ public class NurseController {
 
     @GetMapping("/index")
     public ResponseEntity<List<Object>> getAllNurses() {
-        // Convertimos el JSONArray a List para que Jackson lo serialice como un array JSON válido
         return ResponseEntity.ok(getListNurses().toList());
     }
 
