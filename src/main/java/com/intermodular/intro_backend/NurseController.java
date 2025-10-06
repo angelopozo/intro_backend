@@ -1,38 +1,33 @@
 package com.intermodular.intro_backend;
 
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.HashMap;
-import java.util.Map;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
+
+import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/nurse")
 public class NurseController {
 
-    private JSONArray listNurses = getListNurses();
-    private final NurseService nurseService;
+    private static final String NURSE_JSON_PATH = "src/main/resources/data/nurse.json";
 
     @Autowired
-    public NurseController(NurseService nurseService) {
-        this.nurseService = nurseService;
-    }
+    private BCryptPasswordEncoder passwordEncoder;
 
     private JSONArray getListNurses() {
         try {
-            String content = new String(Files.readAllBytes(Paths.get("src/main/resources/data/nurse.json")));
+            String content = new String(Files.readAllBytes(Paths.get(NURSE_JSON_PATH)));
             return new JSONArray(content);
         } catch (IOException e) {
             e.printStackTrace();
@@ -40,32 +35,55 @@ public class NurseController {
         }
     }
 
-    @GetMapping("/name/{name}")
-    public ResponseEntity<Map<String, Object>> findByName(@PathVariable String name) {
-        for (int i = 0; i < listNurses.length(); i++) {
-            JSONObject n = listNurses.getJSONObject(i);
+    private void saveAllNurses(JSONArray nurses) throws IOException {
+        Files.writeString(Paths.get(NURSE_JSON_PATH), nurses.toString(2));
+    }
 
-            if (n.getString("first_name").equals(name)) {
-                return ResponseEntity.ok(n.toMap());
+    private boolean existsById(int id) throws IOException {
+        JSONArray nurses = getListNurses();
+        for (int i = 0; i < nurses.length(); i++) {
+            if (nurses.getJSONObject(i).getInt("nurse_id") == id) {
+                return true;
             }
         }
-        return ResponseEntity.notFound().build();
+        return false;
+    }
+
+    private boolean existsByEmail(String email) throws IOException {
+        JSONArray nurses = getListNurses();
+        for (int i = 0; i < nurses.length(); i++) {
+            if (nurses.getJSONObject(i).getString("email").equalsIgnoreCase(email)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     @PostMapping("/register")
     public ResponseEntity<?> registerNurse(@RequestBody NurseRegisterRequest request) {
         try {
-            JSONObject newNurse = nurseService.registerNurse(
-                    request.nurse_id(),
-                    request.first_name(),
-                    request.last_name(),
-                    request.email(),
-                    request.password());
+            if (existsById(request.nurse_id())) {
+                return ResponseEntity.status(HttpStatus.CONFLICT).body("El id ya existe");
+            }
+            if (existsByEmail(request.email())) {
+                return ResponseEntity.status(HttpStatus.CONFLICT).body("El email ya existe");
+            }
+
+            JSONObject newNurse = new JSONObject();
+            newNurse.put("nurse_id", request.nurse_id());
+            newNurse.put("first_name", request.first_name());
+            newNurse.put("last_name", request.last_name());
+            newNurse.put("email", request.email());
+            newNurse.put("password", passwordEncoder.encode(request.password()));
+
+            JSONArray nurses = getListNurses();
+            nurses.put(newNurse);
+            saveAllNurses(nurses);
+
             return ResponseEntity.status(HttpStatus.CREATED).body(newNurse.toMap());
-        } catch (IllegalArgumentException e) {
-            return ResponseEntity.status(HttpStatus.CONFLICT).body(e.getMessage());
         } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error interno: " + e.getMessage());
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Error interno: " + e.getMessage());
         }
     }
 
@@ -74,32 +92,43 @@ public class NurseController {
     }
 
     @PostMapping("/login")
-    public ResponseEntity<Map<String, Boolean>> login(@RequestBody Map<String, String> body) {
-        listNurses = getListNurses();
-        String name = body.get("first_name");
+    public ResponseEntity<Map<String, Boolean>> login(@RequestBody Map<String, String> body, HttpSession session) {
+        JSONArray listNurses = getListNurses();
+        String email = body.get("email");
         String password = body.get("password");
-        boolean answer = false;
+        boolean authenticated = false;
+
         for (int i = 0; i < listNurses.length(); i++) {
             JSONObject nurse = listNurses.getJSONObject(i);
-            if (nurse.getString("first_name").equals(name) && nurseService.isPasswordCorrect(password, nurse.getString("password"))) {
-                answer = true;
+            if (nurse.getString("email").equalsIgnoreCase(email) &&
+                    passwordEncoder.matches(password, nurse.getString("password"))) {
+                authenticated = true;
+                // aquí marcamos al usuario como logueado en la sesión
+                session.setAttribute("user", email);
                 break;
             }
         }
 
         Map<String, Boolean> response = new HashMap<>();
-        response.put("response", answer);
+        response.put("authenticated", authenticated);
 
         return ResponseEntity.ok(response);
     }
 
     @GetMapping("/index")
-    public ResponseEntity<JSONArray> getAllNurses() throws IOException {
-        String content = new String(Files.readAllBytes(Paths.get("src/main/resources/data/nurse.json")));
-        JSONArray nurses = new JSONArray(content);
+    public ResponseEntity<JSONArray> getAllNurses() {
+        return ResponseEntity.ok(getListNurses());
+    }
 
-        System.out.println(content);
-
-        return ResponseEntity.ok(nurses);
+    @GetMapping("/name/{name}")
+    public ResponseEntity<Map<String, Object>> findByName(@PathVariable String name) {
+        JSONArray nurses = getListNurses();
+        for (int i = 0; i < nurses.length(); i++) {
+            JSONObject n = nurses.getJSONObject(i);
+            if (n.getString("first_name").equalsIgnoreCase(name)) {
+                return ResponseEntity.ok(n.toMap());
+            }
+        }
+        return ResponseEntity.notFound().build();
     }
 }

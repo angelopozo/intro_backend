@@ -1,4 +1,3 @@
-
 [
   {
     "password": "$2a$04$UJqN.u/FElgSeKb2XH.r4.XD1C.O50/DthiQiPtGCP1wlclBed1oq",
@@ -720,5 +719,12 @@
     "nurse_id": 104,
     "first_name": "justin",
     "email": "justinjustin@gmail.com"
+  },
+  {
+    "password": "$2a$10$ip.DSR5OIz4i13wGC9qSG.P3YvS13OeOTHt/8eewPxE8F8wX.9KWa",
+    "last_name": "Negro",
+    "nurse_id": 113,
+    "first_name": "Angelo",
+    "email": "angelo@adobe.com"
   }
 ]
