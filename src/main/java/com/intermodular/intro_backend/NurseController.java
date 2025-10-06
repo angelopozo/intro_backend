@@ -94,17 +94,17 @@ public class NurseController {
     @PostMapping("/login")
     public ResponseEntity<Map<String, Boolean>> login(@RequestBody Map<String, String> body, HttpSession session) {
         JSONArray listNurses = getListNurses();
-        String email = body.get("email");
+        String firstName = body.get("first_name");
         String password = body.get("password");
         boolean authenticated = false;
 
         for (int i = 0; i < listNurses.length(); i++) {
             JSONObject nurse = listNurses.getJSONObject(i);
-            if (nurse.getString("email").equalsIgnoreCase(email) &&
+            if (nurse.getString("first_name").equalsIgnoreCase(firstName) &&
                     passwordEncoder.matches(password, nurse.getString("password"))) {
                 authenticated = true;
-                // aquí marcamos al usuario como logueado en la sesión
-                session.setAttribute("user", email);
+                // Marcamos la sesión como iniciada con el first_name
+                session.setAttribute("user", firstName);
                 break;
             }
         }
