@@ -726,5 +726,12 @@
     "nurse_id": 113,
     "first_name": "Angelo",
     "email": "angelo@adobe.com"
+  },
+  {
+    "password": "$2a$10$QjqhDqQr.60J97oVg3Gno.FGE13yo1WAeNROXff.FGuAQc9XY5HUS",
+    "last_name": "Rodríguez",
+    "nurse_id": 115,
+    "first_name": "TXEMA",
+    "email": "ññññ@stucom.com"
   }
 ]

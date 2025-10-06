@@ -1,9 +1,9 @@
 package com.intermodular.intro_backend;
 
+import java.io.IOException;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.io.IOException;
 
 @SpringBootApplication
 public class NurseApplication {
@@ -11,8 +11,4 @@ public class NurseApplication {
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(NurseApplication.class, args);
 	}
-
-
-
-
 }

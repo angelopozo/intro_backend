@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -116,8 +117,9 @@ public class NurseController {
     }
 
     @GetMapping("/index")
-    public ResponseEntity<JSONArray> getAllNurses() {
-        return ResponseEntity.ok(getListNurses());
+    public ResponseEntity<List<Object>> getAllNurses() {
+        // Convertimos el JSONArray a List para que Jackson lo serialice como un array JSON válido
+        return ResponseEntity.ok(getListNurses().toList());
     }
 
     @GetMapping("/name/{name}")
