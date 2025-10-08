@@ -705,33 +705,5 @@
     "nurse_id": 101,
     "first_name": "Nuevo",
     "email": "nuevo@correo.com"
-  },
-  {
-    "password": "$2a$10$ouASa2Gv8trm8PKHSrIZXuPvc5myGM7hWHpj6Smt/HJWjlV6Z/yGm",
-    "last_name": "safe",
-    "nurse_id": 103,
-    "first_name": "jonji",
-    "email": "jonji@gmail.com"
-  },
-  {
-    "password": "$2a$10$2pjFzdVLENUC6Sfi95IGQOXyDlT4lscmFzxCUxx9m9SA7tzZu53uW",
-    "last_name": "suarez",
-    "nurse_id": 104,
-    "first_name": "justin",
-    "email": "justinjustin@gmail.com"
-  },
-  {
-    "password": "$2a$10$ip.DSR5OIz4i13wGC9qSG.P3YvS13OeOTHt/8eewPxE8F8wX.9KWa",
-    "last_name": "Negro",
-    "nurse_id": 113,
-    "first_name": "Angelo",
-    "email": "angelo@adobe.com"
-  },
-  {
-    "password": "$2a$10$QjqhDqQr.60J97oVg3Gno.FGE13yo1WAeNROXff.FGuAQc9XY5HUS",
-    "last_name": "Rodríguez",
-    "nurse_id": 115,
-    "first_name": "TXEMA",
-    "email": "ññññ@stucom.com"
   }
 ]
