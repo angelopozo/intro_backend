@@ -11,6 +11,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -68,11 +69,14 @@ public class NurseController {
     @PostMapping("/register")
     public ResponseEntity<?> registerNurse(@RequestBody NurseRegisterRequest request) {
         try {
+            Map<String, String> response = new HashMap<>();
             if (existsById(request.nurse_id())) {
-                return ResponseEntity.status(HttpStatus.CONFLICT).body("El id ya existe");
+                response.put("error", "El id ya existe");
+                return ResponseEntity.status(HttpStatus.CONFLICT).body(response);
             }
             if (existsByEmail(request.email())) {
-                return ResponseEntity.status(HttpStatus.CONFLICT).body("El email ya existe");
+                response.put("error", "El email ya existe");
+                return ResponseEntity.status(HttpStatus.CONFLICT).body(response);
             }
 
             JSONObject newNurse = new JSONObject();
@@ -117,7 +121,11 @@ public class NurseController {
         Map<String, Boolean> response = new HashMap<>();
         response.put("authenticated", authenticated);
 
-        return ResponseEntity.ok(response);
+        if (authenticated) {
+            return ResponseEntity.ok(response);
+        } else {
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(response);
+        }
     }
 
     @GetMapping("/index")

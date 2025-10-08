@@ -705,5 +705,12 @@
     "nurse_id": 101,
     "first_name": "Nuevo",
     "email": "nuevo@correo.com"
+  },
+  {
+    "password": "$2a$10$.066yIjbRrW5fDmDxNVOz.D64BnZeXdIZRhIOuWxlbnOwlqKXbAwe",
+    "last_name": "Salango",
+    "nurse_id": 105,
+    "first_name": "Jonji",
+    "email": "jonjisa@correo.com"
   }
 ]
