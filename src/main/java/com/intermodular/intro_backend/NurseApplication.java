@@ -9,6 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class NurseApplication {
 
 	public static void main(String[] args) throws IOException {
-		SpringApplication.run(NurseApplication.class, args);
+		System.out.println("jijijia");
 	}
 }
